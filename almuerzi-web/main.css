@@ -1,0 +1,94 @@
+body{
+    background-color: silver;    
+}
+#app{
+    display: flex;
+}
+#app div{
+    background-color: white;
+    flex-grow: 1;
+    margin: 5px;
+    margin-top: 0px;
+    border-radius: 15px;
+}
+
+#meals{
+    margin-left: 0px;
+}
+
+#orders{
+    margin-right: 0px;
+}
+ul{
+    list-style-type: none;
+}
+.submit{
+    background-color: lightseagreen;
+    color: #fff;
+    padding: 10px 15px;
+    border: solid 0px;
+    border-radius: 15px;
+    margin: 15px;
+    margin-left: 38px;
+}
+#submit:active{
+    border: solid 0px;
+    border-radius: 15px;
+}
+#submit:disabled{
+    background-color: darkslategray;
+}
+#meals-list li{
+    cursor: pointer;
+    max-width: 80%;
+}
+.selected{
+    font-weight: bold;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    border-top: 1px solid rgba(0,0,0,0.2);
+}
+.form-main{ 
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    margin: 0 auto; 
+    max-width: 300px; 
+    padding: 20px; 
+    margin-top: 100px;
+}
+
+#app .form-main{
+    margin: 0 auto; 
+    max-width: 300px; 
+    padding: 20px; 
+    margin-top: 100px;
+}
+.login-form div{
+    width: 100%;
+    
+}
+.login-form div p{
+    margin-left: 7%;
+    font-weight: bold;
+    
+}
+.login-form .text{
+    background-color: silver;
+    border-bottom: 3px solid rgba(0,0,0,0.2);
+    width: 80%;
+    margin-left: 7%;
+    height: 30px;
+} 
+.btn{
+    background-color: lightseagreen;
+    color: #fff;
+    padding: 10px 15px;
+    border: solid 0px; 
+    width: 82%;
+    margin-left: 7%; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.form-title{
+    text-align:  center;
+    font-size: 25px;
+}
